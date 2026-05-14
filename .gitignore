@@ -1,0 +1,43 @@
+# Model weights (large files)
+*.pt
+models/
+
+# Data and outputs
+raw_renders/
+outputs/
+output/
+*.npy
+*.png
+*.jpg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+build/
+develop-eggs/
+dist/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE and system files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Videos
+*.mp4
+*.mov
+media/render.mp4
+media/*.mov
+
+# Nerfstudio outputs
+video_processed/
+outputs/

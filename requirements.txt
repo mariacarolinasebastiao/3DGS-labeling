@@ -1,0 +1,7 @@
+nerfstudio
+ultralytics
+plyfile
+scipy
+opencv-python
+numpy
+torch

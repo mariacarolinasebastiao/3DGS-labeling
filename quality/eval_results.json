@@ -1,0 +1,17 @@
+{
+  "experiment_name": "video_processed",
+  "method_name": "splatfacto",
+  "checkpoint": "/proj/dsr/home/emesrba/data/zproject/outputs/video_processed/splatfacto/2026-05-09_193327/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 32.4054069519043,
+    "psnr_std": 3.391054630279541,
+    "ssim": 0.9606220722198486,
+    "ssim_std": 0.024423062801361084,
+    "lpips": 0.10832405835390091,
+    "lpips_std": 0.04856600612401962,
+    "num_rays_per_sec": 12339405.0,
+    "num_rays_per_sec_std": 3437129.5,
+    "fps": 23.871891021728516,
+    "fps_std": 6.6494927406311035
+  }
+}
