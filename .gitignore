@@ -7,8 +7,17 @@ raw_renders/
 outputs/
 output/
 *.npy
+
+# Images and videos (except demo files in media/)
 *.png
+!media/label1.png
+!media/label2.png
+!media/diagram.png
 *.jpg
+*.mp4
+!media/render.mp4
+*.mov
+!media/*.mov
 
 # Python cache
 __pycache__/
@@ -32,12 +41,6 @@ ENV/
 *.swp
 *.swo
 
-# Videos
-*.mp4
-*.mov
-media/render.mp4
-media/*.mov
-
 # Nerfstudio outputs
 video_processed/
-outputs/
+original_video/
