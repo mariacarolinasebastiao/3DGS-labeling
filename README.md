@@ -71,20 +71,13 @@ YOLO-World and SAM2 model weights are downloaded automatically by Ultralytics on
 
 ### 3D Reconstruction
 
-<video width="100%" controls>
-  <source src="media/render.mp4" type="video/mp4">
-</video>
+[Watch the 3D reconstruction video](media/render.mp4)
 
 ### Semantic Labeling
 
-<div style="display: flex; gap: 20px;">
-  <div style="flex: 1;">
-    <img src="media/label1.png" width="100%" />
-  </div>
-  <div style="flex: 1;">
-    <img src="media/label2.png" width="100%" />
-  </div>
-</div>
+| | |
+|---|---|
+| ![Label 1](media/label1.png) | ![Label 2](media/label2.png) |
 
 ## Limitations and Future Work
 
