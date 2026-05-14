@@ -17,10 +17,10 @@ ns-process-data video --data /path/to/video.mp4 --output-dir ./data --matching-m
 ns-train splatfacto --data ./data --output-dir ./outputs
 
 # 4. Render RGB and depth
-python scr/render_raw_depth.py --config ./outputs/video_processed/splatfacto/[timestamp]/config.yml --output-dir ./raw_renders
+python scripts/render_raw_depth.py --config ./outputs/video_processed/splatfacto/[timestamp]/config.yml --output-dir ./raw_renders
 
 # 5. Label your splat
-python scr/label_gaussians.py --renders-dir ./raw_renders --splat-ply ./exports/splat.ply --output-dir ./output
+python scripts/label_gaussians.py --renders-dir ./raw_renders --splat-ply ./exports/splat.ply --output-dir ./output
 ```
 
 The labeled splat is saved to `output/labeled_splat.ply`.
