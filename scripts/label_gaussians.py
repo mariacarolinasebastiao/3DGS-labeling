@@ -1,15 +1,4 @@
 #!/usr/bin/env python3
-"""
-label_gaussians.py — Depth-based semantic labeling of Gaussian splats
-                     using YOLO-World (open-vocabulary detection) + SAM2 (precise masks).
-
-Usage:
-    python label_gaussians.py \
-        --renders-dir /home/coder/data/zproject/raw_renders \
-        --splat-ply   /home/coder/data/zproject/exports/splat1/splat.ply \
-        --output-dir  /home/coder/data/zproject/output
-"""
-
 import argparse
 import json
 from pathlib import Path

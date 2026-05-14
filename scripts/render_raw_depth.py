@@ -1,13 +1,4 @@
 #!/usr/bin/env python3
-"""
-render_raw_depth.py — Save RGB, float depth, and camera poses for every frame.
-
-Usage:
-    python render_raw_depth.py \
-        --config /home/coder/data/zproject/outputs/video_processed/splatfacto/2026-05-09_193327/config.yml \
-        --output-dir /home/coder/data/zproject/raw_renders
-"""
-
 import argparse
 import json
 from pathlib import Path

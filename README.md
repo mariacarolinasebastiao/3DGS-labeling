@@ -4,6 +4,8 @@ I automatically label 3D Gaussian splats with semantic object classes using open
 
 ## Quick Start
 
+**Note:** Ensure nerfstudio is installed (see Requirements below).
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/yourusername/gaussian-splat-labeling.git
